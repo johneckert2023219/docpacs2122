@@ -37,7 +37,7 @@ app.post('/', function(req, res) {
             console.log(files);
 
             if (jsonObj[x].Date.includes(req.body.search)) {
-              console.log("HEY I FOUND IT");
+              console.log("Record found");
               founddata.push(jsonObj[x])
             }
 
