@@ -1,50 +1,68 @@
 const csv = require('csvtojson')
-const fs = require('fs');
+const express = require('express');
+const glob = require('glob');
+const app = express()
+app.set("view engine", "ejs")
+app.use(express.urlencoded({
+  extended: true
+}));
 
-var data = {};
 
-fs.readdir(__dirname + '/csv/', async (err, files) => {
-	if (err) console.log(err)
-	for (var file of files) {
-		if (file.split('.')[1] == 'csv') {
-			var csvFilePath = __dirname + `/csv/${file}`;
-			// Async / await usage
-			data[file.split('.')[0]] = await csv({
-				delimiter: ','
-			}).fromFile(csvFilePath);
-		}
-	}
-  data = JSON.stringify(data);
-	fs.writeFile(__dirname + '/data.json', data, (err) => {
-		if (err) {
-			console.log(err);
-		}
-	})
-});
+app.get('/', function(req, res) {
+  res.render('search', {
+    error: "",
+    found: ""
+  })
+})
 
-let jsonData = fs.readFileSync(__dirname + '/data.json', 'utf8');
-jsonData = JSON.parse(jsonData);
 
-function getAllFromDate(date) {
-  let dateData = {};
-  for (let sheet in jsonData) {
-    dateData[sheet] = [];
-    jsonData[sheet].forEach(row => {
-      if (row.docPacDate == date) dateData[sheet].push(row);
+
+app.post('/', function(req, res) {
+  var found = 0
+  var founddata = []
+  if (req.body.search) {
+    console.log(req.body.search);
+
+
+    glob("*.csv", function(er, files) {
+      console.log(files);
+
+      for (var i = 0; i < files.length; i++) {
+
+        csv().fromFile(files[i]).then(function(jsonObj) {
+          for (var x = 0; x < jsonObj.length; x++) {
+            console.log("start");
+            console.log(jsonObj[x]);
+            console.log("end");
+            console.log(files);
+
+            if (jsonObj[x].Date.includes(req.body.search)) {
+              console.log("HEY I FOUND IT");
+              founddata.push(jsonObj[x])
+            }
+
+          }
+
+          console.log(founddata);
+        })
+      }
+
+    })
+
+    res.render('search', {
+      error: "",
+      found: founddata
     });
-  };
-  return dateData;
-}
 
-function getAllFromType(type) {
-  let typeData = {};
-  for (let sheet in jsonData) {
-    typeData[sheet] = [];
-    jsonData[sheet].forEach(row => {
-      if (row.type == type) typeData[sheet].push(row);
-    });
-  };
-  return typeData;
-}
 
-console.log(getAllFromType("Review"));
+  } else {
+
+    res.render('search', {
+      error: " you forgot the input ",
+      found: ""
+    })
+  }
+})
+
+
+app.listen(8000)
