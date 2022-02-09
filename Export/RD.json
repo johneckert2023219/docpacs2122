@@ -1,0 +1,251 @@
+[
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Aug 27\"\"\",Print,,Signed Syllabus"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Aug 27\"\"\",Print,,Javascript Initial Assessment (js_assess.js)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 3\"\"\",View,,Build A Webserver Using nodejs (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 3\"\"\",View,,Sept. 1st: Github practice assignment (assigned in class)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 3\"\"\",\"Print, View\",,[data missing]"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 10\"\"\",Print,,Notebook 1: Initialize Nodejs Project"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 10\"\"\",Print,,Notebook 2: Nodejs HTTP Server"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 10\"\"\",Print,,Portfolio 1: Nodejs HTTP Server"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 17\"\"\",Print,,\"\"\"Express Middleware (pg. 2)\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 17\"\"\",View,,\"\"\"ExpressJS Team Website (pg. 2)\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 17\"\"\",Print,,Updated Version of this DocPac"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 24\"\"\",View,,Upgrade Team Website with EJS"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 24\"\"\",Print,,Notebook 4: ReactJS (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Sep 24\"\"\",Manual,,\"Codecademy �Learn Javascript� course, �Introduction� Chapter : Includes both Lessons, both Projects, the Quiz, and Article\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 1\"\" \",Print,,Notebook 1: Initialize Nodejs Project"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 1\"\" \",Print,,Notebook 2: Nodejs HTTP Server"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 1\"\" \",Print,,Notebook 3: Using ExpressJS with NodeJS"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 1\"\" \",Print,,Notebook 4: ReactJS (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 1\"\" \",View,,Team Trello Board"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 1\"\" \",Manual,,\"Codecademy �Learn Javascript� course, �Introduction� Chapter : Includes both Lessons, both Projects, the Quiz, and Article\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 8\"\"\",Print,,Team Documentation: Notebook Entry Format"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 8\"\"\",Print,,Analysis: Team Composition"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 8\"\"\",View,,Team Website Upgrade: Load Team Profiles from JSON"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 8\"\"\",View,,Team Website Upgrade: Save Query Params to JSON"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 8\"\"\",Manual,,\"Codecademy �Learn Javascript� course, �Functions� Chapter : Includes the Lesson, both Projects, and the Quiz\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 15\"\"\",Print,,Notebook 5: HTML Submit Form Data"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 15\"\"\",Print,,Notebook 6: ExpressJS POST Requests"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 15\"\"\",View,,Team Website Upgrade: Record Comments with HTML Form"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 15\"\"\",Manual,,Codecademy: Everything assigned in previous DocPacs"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 22\"\"\",Print,,Cover Letter (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 22\"\"\",Print,,Your Resume (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 22\"\"\",Manual,,\"Codecademy: Learn Javascript, Scopes. Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 22\"\"\",View,,Upgrade Team Website: Comments Section (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 29\"\"\",Print,,Notebooks 1 - 6"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 29\"\"\",Print,,DocPacs Aug17 - Oct29"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Oct 29\"\"\",Manual,,\"Codecademy: Learn Javascript, all chapters up to Scopes\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Nov 5\"\"\",Print,,Personal Improvement Plan"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Nov 5\"\"\",Manual,,\"Codecademy: Learn Javascript, Arrays. Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Nov 12\"\"\",Print,,Exam Preparation Plan"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Nov 12\"\"\",Manual,,\"Codecademy: Learn Javascript, Loops. Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Nov 19\"\"\",Inside,,Exam Preparation Progress Report (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Nov 19\"\"\",Manual,,\"Codecademy: Learn Javascript, Iterators. Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 3\"\"\",Print,,JS Bootcamp Key Take-Aways"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 3\"\"\",Online,,All four days of JS Bootcamp 2122 accepted as pull requests into csmith1188/jsbootcamp2122 on Github.com"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 3\"\"\",Manual,,\"Codecademy: Learn Javascript, Objects. Lesson, Lesson, Project, Project, and Quiz\""
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",Inside,,Reflection (pg. 3)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",Inside,,Exam Preparation Progress Report (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",Inside,,Team Project Goal (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",Print,,JS Challenge Pt. 1"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",View,,Show instructor your Team Project's goal being met"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",Online,,Get your JS Bootcamp fork accepted as a Pull Request to the upstream"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 10\"\"\",Manual,,Codecademy: All Codecademy completed (DocPac rejected if not complete!)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 17\"\" \",Inside,,Reflection (pg. 3) "
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 17\"\" \",Inside,,Exam Preparation Progress Report (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 17\"\" \",Inside,,Team Project Goal (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 17\"\" \",Print,,JS Challenge Pt. 2"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 17\"\" \",Print,,JS Challenge (Dec15) Canvas + Iterators"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 22\"\" \",Inside,,Reflection (pg. 3)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 22\"\" \",Inside,,Exam Preparation Progress Report (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 22\"\" \",Inside,,Team Project Goal (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 22\"\" \",Print,,JS Bootcamp Flow Chart (Dec21)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Dec 22\"\" \",Print,,Winter Break Schedule"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 7\"\"\",Inside,,Reflection (pg. 3)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 7\"\"\",Inside,,Exam Preparation Progress Report (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 7\"\"\",Inside,,Team Project Goal (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 7\"\"\",Print,,Lesson Key Takeaways x 3"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 7\"\"\",Print,,JS Challenges Pt. 3"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",Inside,,Exam Preparation Progress Report (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",Inside,,Reflection (pg. 3) "
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",Print,,Design a Routine"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",Print,,Lesson Key Takeaways x 3"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",Print,,JS Challenges Pt. 4"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",Print,,JS Challenges Pt. 5"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 14\"\"\",View,,Team Project Presentation"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 21\"\"\",Inside,,Reflection (pg. 3)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 28\"\"\",Print,,Lesson Key Takeaways"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 28\"\"\",Print,,Reward System Brainstorm"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Jan 28\"\"\",Inside,,Reflection (pg. 3)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Feb 4\"\"\",Print,,Single: Nocti Flowchart Preparation (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Feb 4\"\"\",Online,,Teams: DocPac Digitalization (pg. 2)"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Feb 4\"\"\",Print,,Pairs: Javascript Challenge #7"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Feb 4\"\"\",Print,,Pairs: Javascript Challenge #8"
+ },
+ {
+  "Date,Type,,Req.Doc.": "\"\"\"Feb 4\"\"\",Inside,,Reflection (pg. 3)"
+ }
+]
