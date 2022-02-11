@@ -1,6 +1,16 @@
+//Converter Declarations
 const fs = require("fs");
 const csv = require('csvtojson');
 const csvFilePath='Changes.csv'
+
+//Server Declarations
+const http = require('http');
+const PORT = 5000;
+const ejs = require('ejs');
+const express = require('express');
+const app = express();
+const msql = require("mysql")
+
 
 
 let files = ['Changes.csv', 'Events.csv', 'Goals.csv', 'ID.csv', 'RD.csv']
@@ -20,11 +30,12 @@ files.forEach((file, i) => {
 });
 
 console.log(allData);
-
-
-// let data = JSON.stringify(csvFilePath, null, 2);
-//
-// fs.writeFile(csvFilePath.split('.')[0]+'.json', data, (err) => {
-//   if (err) throw err;
-//   console.log('Data written to file');
-// });
+app.set('view engine' , 'ejs');
+app.get('/', (req,res) =>{
+  res.render('home', {
+    bodytext: "Yurrr"
+  })
+})
+app.listen(PORT, () => {
+  console.log(`Listening on ${PORT}`)
+});
