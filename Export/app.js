@@ -12,7 +12,6 @@ const app = express();
 const sqlite3 = require('sqlite3');
 
 
-let db = new sqlite3.Database('database.db')
 let files = ['Changes.csv', 'Events.csv', 'Goals.csv', 'ID.csv', 'RD.csv']
 let allData = {}
 
@@ -37,12 +36,37 @@ let db = new sqlite3.Database('database.db', (err) => {
 });
 
 console.log(allData);
+
 app.set('view engine' , 'ejs');
+
+app.use(express.urlencoded({extended:true}))
+
 app.get('/', (req,res) =>{
   res.render('home', {
     bodytext: "Joe"
   })
 })
+
+app.post('/search', (req, res) => {
+  console.log(req.body.category);
+  let categories = ['Changes', 'ID', 'RD', 'Goals', 'Events']
+  if (categories.includes(req.body.category)) {
+    db.all(`SELECT * from ${req.body.category};`, (err, results) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.render('home', {
+          bodytext: results
+        })
+      }
+    });
+  }
+
+
+
+
+})
+
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}`)
 });

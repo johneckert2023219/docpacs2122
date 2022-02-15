@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,8 +22,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
-  $( function() {
-    $( "#speed" ).selectmenu();
+    $( function() {
+    $( "#category" ).selectmenu();
 
     $( "#files" ).selectmenu();
 
@@ -35,27 +36,25 @@
   } );
   </script>
 </head>
+
 <body>
-
-<div class="demo">
-
-<form action="#">
-
-  <fieldset>
-    <label for="speed">DocPac Type</label>
-    <select name="speed" id="speed">
-      <option selected="selected">Goals</option>
-      <option>Included Documentation</option>
-      <option>Required Documentation</option>
-      <option>Changes</option>
-      <option>Events</option>
-    </select>
-    </select>
-  </fieldset>
-
-</form>
-
-</div>
- <input type="submit" value="Search">
+  <%- JSON.stringify(bodytext) %>
+  <div class="demo">
+    <form action="search" method="POST">
+      <fieldset>
+        <label for="category">DocPac Type</label>
+        <select name="category" id="category">
+          <option value="Goals" selected="selected">Goals</option>
+          <option value="ID">Included Documentation</option>
+          <option value="RD">Required Documentation</option>
+          <option value="Changes">Changes</option>
+          <option value="Events">Events</option>
+        </select>
+        </select>
+      </fieldset>
+      <input type="submit" value="Search">
+    </form>
+  </div>
 </body>
+
 </html>
