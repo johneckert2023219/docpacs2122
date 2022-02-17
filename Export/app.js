@@ -43,7 +43,7 @@ app.use(express.urlencoded({extended:true}))
 
 app.get('/', (req,res) =>{
   res.render('home', {
-    bodytext: "Joe"
+    bodytext: "This is where the banana slamma will happen!"
   })
 })
 
@@ -62,8 +62,8 @@ app.post('/search', (req, res) => {
     });
   }
 
-
-app.post('/add', (req, res) => {
+app.get('/add', (req, res) => {
+  //res.render('add')
   var data = {
       date: req.body.dates,
       goals: req.body.goals,
