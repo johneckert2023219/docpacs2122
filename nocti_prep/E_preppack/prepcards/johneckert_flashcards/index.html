@@ -25,13 +25,13 @@
       ['Jayson', 'How would you log (Hello World!!) to the console>?', 'console.log(Hello World!!);', '0'],
       //['Jayson', '']
     ]
-    var data_nocti = [
-      [ "John Eckert",
-      "Which of the following errors is a calculation error?",
-      ["logical", "arithmetic", "truncation", "semantic"],
-      "1",
-      "2"
-      ],
+    var data_noctiwritten = [
+      { author: "John Eckert",
+        question: "Which of the following errors is a calculation error?",
+        answers: ["logical", "arithmetic", "truncation", "semantic"],
+        type: "1",
+        key: "2"
+      },
 
       [ "John Eckert",
       "Which of the following uses three basic control structures to form highly structured units of code",
@@ -283,6 +283,8 @@
       [`Mr. Smith`, `Create a variable called 'x' and store the value 5 into it.`, `x = 5`, '0']
     ]
 
+    var data_noctiperformance
+
     var languageType = "data_java";
 
     function changeLanguage() {
@@ -324,15 +326,15 @@
           data.push(dataList.splice(Math.floor(Math.random() * dataList.length), 1)[0])
         }
         return data;
-      } else if (languageType == "data_nocti") {
+      } else if (languageType == "data_noctiwritten") {
         data = [];
         mistakePile = [];
         discardPile = 0;
         var cardIndex = 0;
         dataList = [];
-        var numberOfCards = data_nocti.length;
+        var numberOfCards = data_noctiwritten.length;
         for (let i = 0; i < numberOfCards; i++) {
-          dataList.push(data_nocti[i])
+          dataList.push(data_noctiwritten[i])
         }
         console.log(dataList);
 
@@ -516,7 +518,8 @@
           <div class="dropdown-content">
             <a onclick="languageTypePicker('data_java')" href="#">Javascript</a>
             <a onclick="languageTypePicker('data_py')" href="#">Python</a>
-            <a onclick="languageTypePicker('data_nocti')" href='#'>NOCTI</a>
+            <a onclick="languageTypePicker('data_noctiwritten')" href='#'>NOCTI (Written)</a>
+            <a onclick="languageTypePicker('data_noctiperformance')" href='#'>NOCTI (Performance)</a>
             <a href="#">HTML</a>
           </div>
         </div>
