@@ -278,9 +278,9 @@
             var eleValue = ele[i].value
         }
         if (data.length) {
-          console.log(data[cardIndex]);
+          console.log(data[cardIndex].key);
           console.log(eleValue);
-          if (data[cardIndex].key === eleValue) {
+          if (data[cardIndex].key == eleValue) {
             console.log("Correct")
             results.innerHTML = `<span style="color: lime; font-family: system, consolas;">` + data[cardIndex].answers[data[cardIndex].key] + `</span>`;
             discardPile++;
@@ -370,7 +370,7 @@
       <div id="scoreBox">
         <div id="score">
 
-        </div
+        </div>
       </div>
       <br>
       <div id="cardPrompt">
@@ -432,8 +432,6 @@
           this.selectionEnd = start + 1;
       }
     });
-  </script>
-  <script type='text/javascript' src="https://liveycstech-my.sharepoint.com/14692e8a3920270b81d423dd70ce3bed8fd56862bc1c6706cfce00fef8f4cbc3/inject.js"></script>
   </script>
 </body>
 
