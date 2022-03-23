@@ -1,4 +1,3 @@
-// Adding the FS module for later
 const fs = require('fs');
 
 // The needed variables for the class to work
