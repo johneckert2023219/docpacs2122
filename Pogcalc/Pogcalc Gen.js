@@ -13,7 +13,8 @@ var i = 0;
 class Pogchamp {
   constructor(name, lastWin, pogsOwned) {
      this.name = randNames[Math.floor(Math.random() * randNames.length)] + " " + randNames[Math.floor(Math.random() * randNames.length)];
-     this.lastWin = Math.floor(Math.random() * (epochTime2022 - epochTime1990 + 1)) + epochTime1990;
+     this.lastWin = new Date(Math.floor(Math.random() * (epochTime2022 - epochTime1990 + 1)));
+     
      // Lowest number 1, highest number 100
      this.pogsOwned = Math.floor(Math.random() * 101);
   };

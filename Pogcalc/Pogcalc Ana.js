@@ -10,7 +10,7 @@ let champYSW = 0;
 let epochTime2022 = Date.parse(new Date());
 
 for (const competitor of data) {
-  champYSW += (epochTime2022 - Date.parse(competitor.lastWin)) / 1000 / 60 /60 / 24 / 365;
+  champYSW += (epochTime2022 - Date.parse(competitor.lastWin)) / 1000 / 60 / 60 / 24 / 365;
   console.log(champYSW)
   champPogCount += competitor.pogsOwned
   if (true) {
